@@ -1,0 +1,125 @@
+ /* Sticky Navigation Bar */
+.navbar {
+    display:flex;
+    position: sticky;
+    top: 0;
+    background-color:black;
+    padding: 10px;
+    align-items: flex-end;
+    gap:10px;
+  }
+  .navbar h1 {
+    margin: 0;
+    color:whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 750px;
+    
+  }
+   
+  .navbar a {
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #000;
+  }
+  
+  /* Add smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd; /* Add border to the table */
+    align-items: center;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .title {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .nested-table {
+    border-collapse: collapse;
+    margin-top: 5px;
+  }
+  
+  .nested-table td {
+    padding: 4px;
+  }
+  
+  .nested-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .nested-table tr:nth-child(odd) {
+    background-color: #e6e6e6;
+  }
+  
+  .registration-form {
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .registration-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
